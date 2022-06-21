@@ -1,0 +1,38 @@
+header{
+    background-color: $bg1;
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        display: flex;
+        align-items: center;
+        img{
+            width: 55px;
+        }
+        h1{
+            color: $bg4;
+        }
+    }
+    .nav{
+        display: flex;
+        .menu{
+            padding: 21px 12px;
+            list-style-type: none;
+            a{
+                font-size: 18px;
+                text-decoration: none;
+                color: $bg4;
+                border-bottom: 6px solid transparent;
+            }
+        }
+        .boton{
+            display: flex;
+            .login{
+                font-size: 15px;
+                padding: 21px 20px;
+                border: none;
+                background-color: $bg2;
+                color: $bg4;
+            }
+        } 
+    }
+}
